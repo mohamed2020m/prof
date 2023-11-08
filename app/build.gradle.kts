@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
 }
 
+
 android {
     namespace = "me.ensa.professeur"
     compileSdk = 34
