@@ -3,30 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_student">
-
-<!--    <fragment-->
-<!--        android:id="@+id/nav_home"-->
-<!--        android:name="me.ensa.inscription.ui.home.HomeFragment"-->
-<!--        android:label="@string/menu_home"-->
-<!--        tools:layout="@layout/fragment_home" />-->
+    app:startDestination="@id/nav_professeur">
 
     <fragment
-        android:id="@+id/nav_student"
-        android:name="me.ensa.inscription.ui.student.StudentFragment"
-        android:label="@string/menu_student"
-        tools:layout="@layout/fragment_student" />
+        android:id="@+id/nav_professeur"
+        android:name="me.ensa.professeur.ui.professeur.ProfesseurFragment"
+        android:label="@string/menu_prof"
+        tools:layout="@layout/fragment_professeur" />
 
     <fragment
-        android:id="@+id/nav_filiere"
-        android:name="me.ensa.inscription.ui.filiere.FiliereFragment"
-        android:label="@string/menu_filiere"
-        tools:layout="@layout/fragment_filiere" />
+        android:id="@+id/nav_specialite"
+        android:name="me.ensa.professeur.ui.specialite.SpecialiteFragment"
+        android:label="@string/menu_specialite"
+        tools:layout="@layout/fragment_specialite" />
 
-    <fragment
-        android:id="@+id/nav_role"
-        android:name="me.ensa.inscription.ui.role.RoleFragment"
-        android:label="@string/menu_role"
-        tools:layout="@layout/fragment_role" />
 
 </navigation>

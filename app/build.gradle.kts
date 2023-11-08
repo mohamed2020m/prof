@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "me.ensa.inscription"
+    namespace = "me.ensa.professeur"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "me.ensa.inscription"
+        applicationId = "me.ensa.professeur"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
